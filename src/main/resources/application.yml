@@ -1,0 +1,16 @@
+## Default ##
+server:
+  port: 9011
+  servlet:
+    context-path: /pdf-generator
+    session:
+      timeout: -1
+      cookie:
+        max-age: -1
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+spring:
+  banner:
+    location: banner.txt
